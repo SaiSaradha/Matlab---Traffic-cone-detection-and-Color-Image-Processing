@@ -8,7 +8,7 @@ clc;
 clear all;
  
 %Collecting samples from the images with traffic cones
-cone1_o=imgaussfilt(imread('hw2_cone_training_1.jpg'),1.5);
+cone1_o=imgaussfilt(imread('images/hw2_cone_training_1.jpg'),1.5);
 figure, imshow(cone1_o,[]);
 title('Original Cone1');
 cone1=rgb2hsv(imcrop(cone1_o));
@@ -16,7 +16,7 @@ figure, imshow(cone1,[]);
 cone2=rgb2hsv(imcrop(cone1_o));
 figure, imshow(cone2,[]);
  
-cone2_o=imgaussfilt(imread('hw2_cone_training_2.jpg'),1.5);
+cone2_o=imgaussfilt(imread('images/hw2_cone_training_2.jpg'),1.5);
 figure, imshow(cone2_o,[]);
 title('Original Cone2');
 cone3=rgb2hsv(imcrop(cone2_o));
@@ -26,7 +26,7 @@ figure, imshow(cone4,[]);
 cone5=rgb2hsv(imcrop(cone2_o));
 figure, imshow(cone5,[]);
  
-cone3_o=imgaussfilt(imread('hw2_cone_training_3.jpg'),1.5);
+cone3_o=imgaussfilt(imread('images/hw2_cone_training_3.jpg'),1.5);
 figure, imshow(cone3_o,[]);
 title('Original Cone3');
 cone6=rgb2hsv(imcrop(cone3_o));
@@ -40,13 +40,13 @@ figure, imshow(cone9,[]);
 cone10=rgb2hsv(imcrop(cone3_o));
 figure, imshow(cone10,[]);
  
-cone4_o=imgaussfilt(imread('hw2_cone_training_4.jpg'),1.5);
+cone4_o=imgaussfilt(imread('images/hw2_cone_training_4.jpg'),1.5);
 figure, imshow(cone4_o,[]);
 title('Original Cone4');
 cone11=rgb2hsv(imcrop(cone4_o));
 figure, imshow(cone11,[]);
  
-cone5_o=imgaussfilt(imread('hw2_cone_training_5.jpg'),1.5);
+cone5_o=imgaussfilt(imread('images/hw2_cone_training_5.jpg'),1.5);
 figure, imshow(cone5_o,[]);
 title('Original Cone5');
 cone12=rgb2hsv(imcrop(cone5_o));
